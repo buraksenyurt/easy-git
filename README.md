@@ -241,3 +241,16 @@ Kod üzerinde review istemediğimi düşünürsek ilk bulgular oldukça temiz g�
 Şimdilik tek bulgu cognitive complexity değeri sınırı aşmış bir fonksiyon.
 
 ![Cognitive Complexity Bulgu](SonarResult_01.png)
+
+## Sürümler
+
+Hazır derlemeler [Releases](https://github.com/buraksenyurt/easy-git/releases) sayfasında. Her sürümde Windows x64, Linux x64 ve macOS (Apple Silicon) için taşınabilir paket, yükleyiciler ve dosyaların SHA256 özetlerini içeren bir `release.json` bulunur.
+
+Yeni sürüm çıkarmak için `package.json`, `src-tauri/tauri.conf.json` ve `Cargo.toml` içindeki sürümü güncelleyip commit'le, ardından tag'i push'la:
+
+```bash
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+[`release`](.github/workflows/release.yml) workflow'u tag'deki sürümün projedekiyle aynı olduğunu doğrular, tüm platformlar için derler ve sürümü yayınlar.
