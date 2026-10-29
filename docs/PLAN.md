@@ -3,7 +3,7 @@
 > **Atölye:** Fikirler Atölyesi
 > **Doküman sürümü:** v1.1 — 30 Eylül 2026
 > **Dokümanlar:** bu klasör (`easy-git/docs`)
-> **Kod:** `C:\Users\burak\Development\coding-vibes\easy-git`
+> **Kod:** `C:\Users\burak\Development\easy-git` · [github.com/buraksenyurt/easy-git](https://github.com/buraksenyurt/easy-git) *(Ekim 2026'da `coding-vibes`'tan geçmişiyle taşındı)*
 > **Durum:** MVP tamamlandı (Faz 0–6) — sıradaki: Faz 7
 
 ---
@@ -99,7 +99,7 @@ DockerCity'deki "7 kenar durum" listesinin karşılığı. Git ile çalışan he
 ### 5.1 Klasör yapısı
 
 ```
-coding-vibes/easy-git/
+easy-git/
 ├── Cargo.toml                     # Cargo workspace kökü
 ├── package.json                   # Vite + Svelte + Tauri CLI
 ├── README.md
